@@ -1,0 +1,21 @@
+{
+  "name": "fastbench-directory-action",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build src/index.js"
+  },
+  "files": [
+    "dist/index.js",
+    "action.yml"
+  ],
+  "main": "dist/index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@actions/io": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.26.2"
+  }
+}
